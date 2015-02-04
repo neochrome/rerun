@@ -1,0 +1,18 @@
+{
+  "name": "rerun",
+  "version": "0.0.1",
+  "description": "Re-runs a command when files are changed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neochrome/rerun"
+  },
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "chokidar": "1.0.0-rc3",
+    "commander": "2.6.0"
+  }
+}
