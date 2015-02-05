@@ -20,6 +20,7 @@ program
 		ignored.push(pattern);
 		return ignored;
 	}, [])
+	.option('-b, --bell', 'emit a bell (\\u0007) character when command exits with non-zero code')
 	.option('-v, --verbose', 'display additional information')
 	.parse(process.argv);
 
@@ -36,7 +37,7 @@ var info = function () {
 
 var runCommand = function () {
 	exec(command, function (err, stdout, stderr) {
-		if (err) { console.log(err); }
+		if (err && program.bell) { console.log('\u0007'); }
 		if (stdout) { process.stdout.write(stdout); }
 		if (stderr) { process.stderr.write(stderr); }
 	});
