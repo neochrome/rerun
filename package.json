@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "chokidar": "1.0.0-rc3",
-    "commander": "2.6.0"
+    "commander": "2.6.0",
+    "glob": "5.0.10",
+    "minimatch": "2.0.8"
   }
 }
