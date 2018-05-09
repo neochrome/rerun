@@ -1,6 +1,6 @@
 {
   "name": "rerun",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Re-runs a command when files are changed",
   "repository": {
     "type": "git",
