@@ -12,9 +12,9 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "chokidar": "1.0.0-rc3",
-    "commander": "2.6.0",
-    "glob": "5.0.10",
-    "minimatch": "2.0.8"
+    "chokidar": "^2.0.3",
+    "commander": "^2.15.1",
+    "glob": "^7.1.2",
+    "minimatch": "^3.0.4"
   }
 }
